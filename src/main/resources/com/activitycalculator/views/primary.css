@@ -1,0 +1,206 @@
+.view {
+    -fx-background-color: #4d4d4d;
+    -fx-font-size: 1.2em;
+}
+
+.label {
+    -fx-font-size: 1.2em;
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+    -fx-content-display: center;
+}
+
+/* ///////////////////////////////////////////////////////////////////////////////////!*/
+
+.date-picker > .text-field {
+    -fx-background-color:#454545;
+    -fx-background-insets: 0 0 0 0;
+    -fx-border-width:0px;
+    -fx-font-size: 1em;
+    -fx-effect: null;
+}
+
+.combo-box-base > .arrow-button {
+    -fx-background-color: #4d4d4d;
+    -fx-padding: 0 4;
+}
+
+.date-picker:focused{
+    -fx-background-color: rgba(0,0,0,0.1);
+}
+
+.date-picker:focused > .text-field, .date-picker > .text-field:focused {
+    -fx-background-color: rgba(0,0,0,0.1);
+    /*-fx-border-color: rgba(200, 0, 0, 1);*/
+    /*-fx-control-inner-background:rgba(200, 0, 0, 1);*/
+    -fx-faint-focus-color:rgba(0, 0, 0, 0.9);
+    /*-fx-border-radius: 30;*/
+    /*-fx-background-radius:30;*/
+    /*-fx-highlight-fill: rgba(200, 0, 0, 1);*/
+    -fx-border-width: 0px;
+    -fx-text-fill: #fff;
+    /*-fx-prompt-text-fill: rgba(200, 0, 0, 1);*/
+
+    -fx-font-size: 1.2em;
+    -fx-alignment: center;
+    -fx-cell-size:100;
+    -fx-background-insets: 1 0 1 1, 1 0 1 1, 3 2 3 3;
+    -fx-effect: null;
+}
+
+.date-picker-popup {
+    -fx-padding: 1;
+    -fx-background-color: #4d4d4d;
+}
+
+.date-picker-popup > .month-year-pane {
+    -fx-padding: 4;
+    -fx-background-color: #4d4d4d;
+}
+
+.date-picker-popup > .month-year-pane > .spinner > .spinner-label {
+    -fx-font-size: 1.083333em;
+    -fx-alignment: CENTER;
+    -fx-text-fill: rgba(100%, 100%, 100%, 0.9);
+    -fx-font-weight: bold;
+}
+
+.date-picker-popup > .month-year-pane > .spinner > .left-button {
+    -fx-padding: 4 6;
+    -fx-background-color: #4d4d4d;
+}
+
+.date-picker-popup > .month-year-pane > .spinner > .right-button {
+    -fx-padding: 4 6;
+    -fx-background-color: #4d4d4d;
+}
+/*.date-picker-popup > .month-year-pane > .spinner > .button > .left-arrow {*/
+/*    -fx-background-color: rgba(0,0,0,0.9);*/
+/*    -fx-background-insets: 0;*/
+/*    !*-fx-padding: 0.333em 0.167em 0.333em 0.167em;*!*/
+/*    !*-fx-shape: "M5.997,5.072L5.995,6.501l-2.998-4l2.998-4l0.002,1.43l-1.976,2.57L5.997,5.072z";*!*/
+/*    -fx-scale-shape: true;*/
+/*}*/
+
+/*.date-picker-popup > .month-year-pane > .spinner > .button > .right-arrow {*/
+/*    -fx-background-color: #0070C0;*/
+/*    !*-fx-background-insets: 0;*!*/
+/*    !*-fx-padding: 0.333em 0.167em 0.333em 0.167em;*!*/
+/*    !*-fx-shape: "M2.998-0.07L3-1.499l2.998,4L3,6.501l-0.002-1.43l1.976-2.57L2.998-0.07z";*!*/
+/*    -fx-scale-shape: true;*/
+/*}*/
+
+.date-picker-popup > * > .cell {
+    -fx-padding: 0 6;
+    /*-fx-padding: 0 0;*/
+    -fx-alignment: BASELINE_CENTER;
+}
+
+.date-picker-popup > * > .week-number-header-cell,
+.date-picker-popup > * > .day-name-cell {
+    -fx-font-size: 0.833333em;
+    -fx-padding: 0;
+    -fx-text-fill: #0070C0;
+    -fx-font-weight: bold;
+    -fx-border-color:rgba(100%, 100%, 100%, 0.1);
+    -fx-background-color: #4d4d4d
+}
+
+.date-picker-popup > * > .day-cell {
+    -fx-text-fill: rgba(100%, 100%, 100%, 0.6);
+    -fx-border-color:  rgba(100%, 100%, 100%, 0.1);
+    -fx-border-width: 2;
+    -fx-border-insets: 0;
+    -fx-background-color: #4d4d4d
+}
+
+.date-picker-popup > * > .day-cell:focused {
+    -fx-background-color: deepskyblue;
+    -fx-text-fill: rgba(0%, 0%, 0%, 0.6);
+}
+
+.date-picker-popup > * > .day-cell:hover {
+    -fx-background-color: deepskyblue;
+    -fx-text-fill: rgba(0%, 0%, 0%, 0.6);
+
+}
+
+.date-picker-popup > * > .today {
+    -fx-background-insets: 1;
+    -fx-border-color: #606060;
+    -fx-border-insets: 1;
+    -fx-background-color: deepskyblue;
+    -fx-text-fill: rgba(0%, 0%, 0%, 0.6);
+}
+
+.date-picker-popup > * > .today:focused {
+    -fx-background-color: #CCE8FF;
+}
+
+.date-picker-popup > * > .selected {
+    -fx-background-color: #CCE8FF;
+}
+
+.date-picker-popup > * > .previous-month,
+.date-picker-popup > * > .next-month {
+    -fx-text-fill: rgba(0%, 0%, 0%, 0.6);
+}
+
+.date-picker-popup > * > .previous-month > .secondary-text,
+.date-picker-popup > * > .next-month > .secondary-text {
+    -fx-fill: #aaaaaa;
+}
+/*//////////////////////////////////////////////////*/
+.choice-box {
+    -fx-background-color: rgba(0, 0, 0, 0.1);
+    -fx-border-color: rgba(0, 0, 0, 0.9);
+    -fx-font-size: 1.2em;
+    /*-fx-alignment: bottom-center;*/
+    -fx-cell-size:100;
+    -fx-border-width: 0px;
+    -fx-effect: null;
+}
+.choice-box > .label { -fx-text-fill: white; }
+/*.choice-box .context-menu { -fx-background-color: rgba(0, 0, 0, 0.4); }*/
+.choice-box .context-menu { -fx-background-color: #4d4d4d; }
+.choice-box .menu-item > .label { -fx-text-fill: white;}
+.choice-box .menu-item:focused > .label {  -fx-text-fill: black;}
+.choice-box .menu-item:focused{
+    -fx-text-fill: black;
+    -fx-background-color: deepskyblue;
+}
+/*//////////////////////////////////////////////////*/
+.text-field {
+    -fx-background-color: rgba(0,0,0,0.1);
+    -fx-border-color: rgba(0,0,0,0.1);
+    -fx-min-height:45;
+    -fx-text-fill: #fff;
+    -fx-prompt-text-fill: #fff;
+    -fx-border-width:1px;
+    -fx-alignment: center;
+    -fx-font-size: 1.2em;
+    -fx-effect: null;
+}
+
+.text-field:hover,
+.text-field:focused,
+.text-field:selected {
+    -fx-background-color: rgba(0,0,0,0.1);
+    -fx-border-color: rgba(0,0,0,0.1);
+    -fx-min-height:45;
+    -fx-text-fill: #fff;
+    -fx-prompt-text-fill: #fff;
+    -fx-border-width:1px;
+    -fx-alignment: center;
+    -fx-font-size: 1.2em;
+    -fx-effect: null;
+}
+/*//////////////////////////////////////////////////*/
+.button{
+    -fx-font-size: 1.2em;
+}
+
+.context-menu {
+    -fx-background-color: #4d4d4d;
+    -fx-text-fill: white;
+}

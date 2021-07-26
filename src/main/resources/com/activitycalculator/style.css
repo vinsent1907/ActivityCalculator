@@ -1,0 +1,35 @@
+.root {
+    -fx-background-color: gray;
+}
+
+/*.navigation-drawer{*/
+/*    -fx-background-color: gray;*/
+/*}*/
+
+/*.container.item-content{*/
+/*    -fx-background-color: #00BFFF;*/
+/*}*/
+
+.item {
+    -fx-background-color: #00BFFF;
+}
+
+
+.item > .item-content:hover {
+    -fx-background-color: #2DD6D4;
+}
+
+.item:selected > .item-content {
+    -fx-background-color: #00BFFF;
+}
+
+.item:selected:hover > .item-content {
+    -fx-background-color: #2DD6D4;
+}
+
+
+
+
+/*.scroll-pane:selected > .scroll-pane{*/
+/*    -fx-background-color: gray;*/
+/*}*/

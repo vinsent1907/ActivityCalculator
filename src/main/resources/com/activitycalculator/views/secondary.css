@@ -1,0 +1,11 @@
+.view {
+    -fx-background-color: #4d4d4d;
+    -fx-font-size: 1.2em;
+}
+
+.label {
+    -fx-font-size: 1.2em;
+    -fx-text-fill: white;
+    -fx-opacity: 0.6;
+    -fx-content-display: center;
+}

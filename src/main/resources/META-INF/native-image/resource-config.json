@@ -1,0 +1,15 @@
+{
+  "resources":{
+  "includes":[
+    {"pattern":"\\Qcom/activitycalculator/style.css\\E"}, 
+    {"pattern":"\\Qcom/activitycalculator/views/primary.fxml\\E"}, 
+    {"pattern":"\\Qcom/gluonhq/charm/glisten/control/glisten.css\\E"}, 
+    {"pattern":"\\Qcom/gluonhq/charm/glisten/control/swatch_blue.css\\E"}, 
+    {"pattern":"\\Qcom/gluonhq/charm/glisten/control/theme_light.css\\E"}, 
+    {"pattern":"\\Qicon.png\\E"}
+  ]},
+  "bundles":[
+    {"name":"com.sun.javafx.tk.quantum.QuantumMessagesBundle"}, 
+    {"name":"com/sun/javafx/scene/control/skin/resources/controls"}
+  ]
+}
