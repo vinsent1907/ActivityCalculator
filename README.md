@@ -17,6 +17,12 @@ mvn gluonfx:run
 
 The same application can also run natively for on any targeted OS, including Android, iOS, Linux, Mac and Windows.
 
+> **Note**: Build correctly on graalvm-ce-java11-21.1.0
+Gluon applications can run on various platforms. 
+These applications can run directly on the JVM on all desktop and embedded platforms without any additional requirement.
+> For more details, please check
+    [Gluon Documentation](https://docs.gluonhq.com/#_platforms).
+
 To create a native image, execute the following command:
 
 ```
